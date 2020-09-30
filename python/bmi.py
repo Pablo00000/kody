@@ -12,11 +12,11 @@ def main(args):
     c = (b / (a*a))
     if (c < 18.5):
         print ("niedowaga")
-    else if (c <= 25 and c >= 18.5):
+    elif (c <= 25 and c >= 18.5):
         print ("norma")
-    else if (c <= 25 and c < 30):
+    elif (c <= 25 and c < 30):
         print ("nadwaga")
-    else if (c >= 30 and c <= 50):
+    elif (c >= 30 and c <= 50):
         print ("otyłość")
     return 0
 if __name__ == '__main__':
