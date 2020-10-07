@@ -10,19 +10,12 @@
 
 using namespace std;
 
+int liczba1 = 0;
+int liczba2 = 0;
+
 void sumuj(int l1, int l2) {
 	int suma = l1 + l2;
 	cout << "Suma: " << suma << endl;
-	}
-
-void odejmij(int o1, int o2) {
-	int roznica = o1 - o2;
-	cout << "Różnica: " << roznica << endl;
-	}
-
-int pomnoz(int l1, int l2) {
-	int iloczyn = l1 * l2;
-	return iloczyn;
 	}
 
 int main(int argc, char **argv)
@@ -31,12 +24,10 @@ int main(int argc, char **argv)
 	cout << "Podaj liczby: ";
 	cin >> a;
 	cin >> b;
+	cout << "Suma: " << liczba1 + liczba2 << endl;
 	
-	//sumuj (a, b);
-	//odejmij (a, b);
+	sumuj (a,b);
 	
-	pomnoz(a, b);
-	cout << "Iloczyn: " << a * b << endl;
 	return 0;
 }
 
